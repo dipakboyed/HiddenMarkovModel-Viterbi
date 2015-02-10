@@ -1,0 +1,284 @@
+Performing HMM Viterbi algorithm...
+     File 'hw4diceSimple.fasta' exists. Attempting to read FASTA file...
+Reading line number:     0
+     Successfully read sequence of length 6.
+*************************************
+Displaying Results of iteration 1:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 0.17, 0.17, 0.00, 0.00,
+ HighGCState (State2) | 0.10, 0.50, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.83 , 0.17
+ HighGCState (State2) | 0.4 , 0.6
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -1.202551e+001
+*************************************
+
+*************************************
+Displaying Results of iteration 2:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 1.50, 0.00, 0.00, 0.00,
+ HighGCState (State2) | 0.00, 1.00, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.5 , 0.5
+ HighGCState (State2) | 0.333333333333333 , 0.666666666666667
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -2.813411e+000
+*************************************
+
+*************************************
+Displaying Results of iteration 3:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 1.50, 0.00, 0.00, 0.00,
+ HighGCState (State2) | 0.00, 1.00, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.5 , 0.5
+ HighGCState (State2) | 0.333333333333333 , 0.666666666666667
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -2.813411e+000
+*************************************
+
+*************************************
+Displaying Results of iteration 4:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 1.50, 0.00, 0.00, 0.00,
+ HighGCState (State2) | 0.00, 1.00, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.5 , 0.5
+ HighGCState (State2) | 0.333333333333333 , 0.666666666666667
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -2.813411e+000
+*************************************
+
+*************************************
+Displaying Results of iteration 5:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 1.50, 0.00, 0.00, 0.00,
+ HighGCState (State2) | 0.00, 1.00, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.5 , 0.5
+ HighGCState (State2) | 0.333333333333333 , 0.666666666666667
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -2.813411e+000
+*************************************
+
+*************************************
+Displaying Results of iteration 6:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 1.50, 0.00, 0.00, 0.00,
+ HighGCState (State2) | 0.00, 1.00, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.5 , 0.5
+ HighGCState (State2) | 0.333333333333333 , 0.666666666666667
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -2.813411e+000
+*************************************
+
+*************************************
+Displaying Results of iteration 7:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 1.50, 0.00, 0.00, 0.00,
+ HighGCState (State2) | 0.00, 1.00, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.5 , 0.5
+ HighGCState (State2) | 0.333333333333333 , 0.666666666666667
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -2.813411e+000
+*************************************
+
+*************************************
+Displaying Results of iteration 8:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 1.50, 0.00, 0.00, 0.00,
+ HighGCState (State2) | 0.00, 1.00, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.5 , 0.5
+ HighGCState (State2) | 0.333333333333333 , 0.666666666666667
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -2.813411e+000
+*************************************
+
+*************************************
+Displaying Results of iteration 9:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 1.50, 0.00, 0.00, 0.00,
+ HighGCState (State2) | 0.00, 1.00, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.5 , 0.5
+ HighGCState (State2) | 0.333333333333333 , 0.666666666666667
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -2.813411e+000
+*************************************
+
+*************************************
+Displaying Results of iteration 10:
+
+
+ Printing Emission values...
+ ---------------------------------------------
+                      |  A     C     G     T  
+ ---------------------------------------------
+ LowGCState  (State1) | 1.50, 0.00, 0.00, 0.00,
+ HighGCState (State2) | 0.00, 1.00, 0.00, 0.00,
+ ---------------------------------------------
+
+ Printing Transition values...
+ --------------------------------------
+                      |  State1, State2
+ --------------------------------------
+ LowGCState  (State1) | 0.5 , 0.5
+ HighGCState (State2) | 0.333333333333333 , 0.666666666666667
+ BeginState           | 0.48 , 0.52
+ --------------------------------------
+
+
+ No. of hit areas: '1'
+ Location,  Length
+ 3...5, 3
+ Log Probability of Viterbi Path : -2.813411e+000
+*************************************
+

@@ -1,0 +1,8 @@
+>Simple Dice example in the lec06-casino-HMM XL spreadsheet
+316664
+
+> Expected Results
+>  Rolls        316664
+>  Die          FFLLLF
+>  Viterbi      FFLLLF
+
