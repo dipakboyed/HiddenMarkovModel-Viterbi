@@ -23,24 +23,39 @@ Outputs the number and size of high GC content patches, log probability of the V
 Also implements Viterbi training over 10 iterations.
 
 Usage:
+-----------------------------------
 DiBoyed_HMMViterbi.exe <sequence> [-e <emission file>] [-t <transition file>]
 
 Options:
+
  <sequence1>            FASTA file representing the DNA sequence.
+ 
  [-e <emission file>]   Optional file containing initial emission values.
+ 
  [-t <transition file>] Optional file containing initial transition values.
+ 
 
 Notes:
+------------------------------------
 By Default, uses the following emissions and transition values:
  Emissions:
+ 
                           A     C     G     T
+                          
    LowGCState  (State1)  0.25, 0.25, 0.25, 0.25
+   
    HighGCState (State2)  0.20, 0.30, 0.30, 0.20
+   
  Transitions:
+ 
                          State1, State2
+                         
    LowGCState  (State1)  0.9999, 0.0001
+   
    HighGCState (State2)  0.01  , 0.99
+   
    BeginState            0.9999, 0.0001
+   
 
 <emission file> and <transition file> must contain a ',' separated list of values
 only with one line for each row of values and the same order shown above.
